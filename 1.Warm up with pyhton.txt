@@ -1,0 +1,25 @@
+4.
+print("Hello Python")
+5.
+print("Hello\nPython")
+6.
+print("\"MySirG\"")
+7.
+print("\"Teacher's Day\"")
+8.
+name="Durgesh Pratap Tiwari"
+print(name)
+9.
+name="Durgesh pratap Tiwari"
+age=19
+qualification="pursuing Betch 3rd year"
+yoe=4
+print("name=",name,"\nage=",age,"\nqualification=",qualification,"\nyoe=",yoe)
+10.
+a=int(input("Enter first no."))
+b=int(input("Enter second no."))
+c=int(input("Enter third no."))
+print("first no=",a,"\nsecond no=",b,"\nthird no =",c)
+2.
+c:\User\yourusername\hello directory your working directory
+

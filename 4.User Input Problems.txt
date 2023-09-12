@@ -1,0 +1,39 @@
+1.
+a=input("Enter your name")
+print("My name is",a)
+2.
+a=int(input("Enter any number"))
+print("Number which you entered is",a)
+3.
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
+print("Sum of two numbers is =",a+b)
+4.
+r=int(input("Enter the redius"))
+print("Area of circle is =",3.14*r*r)
+5.
+a=int(input("Enter the number"))
+print("Square of given number is=",a*a)
+6.
+b=int(input("Enter the value of b"))
+h=int(input("Enter the value of h"))
+print("Area of triangle is =",0.5*b*h)
+7.
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
+c=int(input("Enter third number"))
+print("Average of three numbers is =",(a+b+c)/3)
+8.
+P=int(input("Enter the value of P"))
+R=int(input("Enter the value of R"))
+T=int(input("Enter the value of T"))
+print("Simple interest is =",(P*R*T)/100)
+9.
+l=int(input("Enter the value of l"))
+w=int(input("Enter the value of w"))
+h=int(input("Enter the value of h"))
+print("Volume of a cuboid is =",l*w*h)
+10.
+l=int(input("Enter the value of l"))
+b=int(input("Enter the value of b"))
+print("Area of rectangle is =",l*b)

@@ -1,0 +1,87 @@
+1.
+a=int(input("Enter any no."))
+if a>0:
+    print("Given no. is positive")
+else:
+    print("Given no. is non-positive")
+2.
+a=int(input("Enter any no."))
+if a%5==0:
+    print("Given no. is divisible by 5")
+else:
+    print("Given no. is not divisible by 5")
+3.
+a=int(input("Enter any no."))
+if a%2==0:
+    print("Given no. is even")
+else:
+    print("Given no. is odd")
+4.
+a=int(input("Enter first no."))
+b=int(input("Enter second no."))
+if a>b:
+    print("a is greater")
+elif b>a:
+    print("b is greater")
+elif a%2==0:
+    print("Both no is even and same then no. is =",a)
+else:
+    print("Both no is same but not even")
+5.
+d={"Durgesh":"Engineer"}
+print(d)
+6.
+a=int(input("Enter any no."))
+if a//100>=1 and a//100<=9:
+    print("Given no. is three digit no.")
+else:
+    print("Given no is not a three digit no.")
+7.
+a=int(input("Enter any no."))
+if a>0:
+    print("Given no. is a positive no.")
+elif a<0:
+    print("Given no. is negative no.")
+else:
+    print("Given no. is zero")
+9.
+a=int(input("Enter any year"))
+if a%100==0:
+    if a%400==0:
+        print("Given year is leap year")
+    else:
+        print("Given year is not a leap year")
+elif a%2==0:
+    print("Given year is a leap year")
+else:
+    print("Given year is not a leap yar")
+10.
+a=int(input("Enter first no."))
+b=int(input("Enter second no."))
+c=int(input("Enter third no."))
+if a>b and a>c:
+    print("a ia greater")
+elif b>c:
+    print("b i greater")    
+elif c>b:
+    print("c is greater")
+elif a%2==0:
+    print("Numbers are same and even that is =",a)
+else:
+    print("Numbers are same but not even")
+11.
+a=int(input("Enter any month value in numeric format"))
+if a==2:
+    print("No. of days in given month is 28 or 29")
+elif a==4 or a==6 or a==9 or a==11 :
+    print("No of days in given month is 30")
+else:
+    print("No of days in given month is 31")
+12.
+a=int(input("Enter real part"))
+b=int(input("Enter imaginary part"))
+if a>b:
+    print("Real part is greater of complex no. ",complex(a,b))
+else:
+    print("Imaginary part is graeter of complex no.",complex(a,b))
+    
